@@ -29,6 +29,9 @@ jobs:
 
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
+      with:
+        # runner image no longer ships the legacy 'tools' package (default list)
+        packages: 'platform-tools'
 
     - name: Install Android NDK
       run: |
