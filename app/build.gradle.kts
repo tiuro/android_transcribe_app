@@ -10,11 +10,11 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "dev.notune.transcribe"
+        applicationId = "dev.notune.transcribe.kr"
         minSdk = 26
         targetSdk = 35
         versionCode = 19
-        versionName = "0.1.18"
+        versionName = "0.1.18-kr"
         ndk {
             abiFilters += "arm64-v8a"
         }
